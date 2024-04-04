@@ -99,7 +99,7 @@ const Testimonies = () => {
         className={cn("scroller relative overflow-hidden py-28")}
       >
         <h2
-          className={`${dancingScript.className} px-10 text-2xl my-8 md:px-20`}
+          className={`${dancingScript.className} px-10 text-2xl my-8 md:px-20 font-extrabold`}
         >
           Some of what our customers say
         </h2>

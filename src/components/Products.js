@@ -85,9 +85,9 @@ const Products = () => {
   return (
     <div
       id="products"
-      className={`${colors.secondary} p-10 md:h-screen md:p-20 border`}
+      className={`${colors.secondary} p-10 md:h-screen md:p-20`}
     >
-      <h2 className={`${dancingScript.className} text-2xl my-8`}>
+      <h2 className={`${dancingScript.className} text-2xl my-8 font-extrabold`}>
         Some Of What We Bake
       </h2>
 

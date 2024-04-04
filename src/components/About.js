@@ -47,7 +47,7 @@ const About = () => {
   return (
     <div id="about" className={cn("font-bold", `h-screen ${colors.secondary}`)}>
       <div className="p-5 md:p-20">
-        <h2 className={`${dancingScript.className} text-2xl my-8`}>
+        <h2 className={`${dancingScript.className} text-2xl my-8 font-extrabold`}>
           Know About Our Business
         </h2>
         <div className="flex flex-col justify-between items-center gap-10">
