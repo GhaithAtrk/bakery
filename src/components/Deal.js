@@ -26,7 +26,7 @@ const Deal = () => {
               className={`p-5 text-center text-white ${colors.primary}`}
               style={{ zIndex: 3 }}
             >
-              <h1 className="text-4xl my-4">Today's Deal</h1>
+              <h1 className="text-4xl my-4">Today&apos;s Deal</h1>
               <p className="md:my-4">Buy 2 peices and get <span className="text-2xl font-bold text-orange-500">10%</span> discount on the third peice</p>
             </div>
           </div>
