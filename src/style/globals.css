@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: fit-content;
+  height: fit-content;
+  z-index: 10;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
