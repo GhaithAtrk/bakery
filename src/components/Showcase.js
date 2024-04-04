@@ -1,4 +1,5 @@
 import { dancingScript } from "@/utils/fonts";
+import Image from "next/image";
 
 const Showcase = () => {
   return (
@@ -9,7 +10,7 @@ const Showcase = () => {
         </h1>
         <p className="text-2xl">Simply delicious</p>
       </div>
-      <img src="/mix-bread.png" alt="" width={380} />
+      <Image src="/mix-bread.png" alt="" width={380} height={380} />
     </div>
   );
 };
