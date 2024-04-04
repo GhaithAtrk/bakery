@@ -2,6 +2,7 @@
 
 import { ThemeContext } from "@/context/ThemeContext";
 import { dancingScript } from "@/utils/fonts";
+import Image from "next/image";
 import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 
@@ -50,7 +51,7 @@ const Header = () => {
               isScrolled ? "top-[12%]  w-24 h-24 " : "top-[20%] w-36 h-36"
             } transform -translate-x-1/2 flex flex-col items-center bg-white  rounded-full border-4 border-black z-10 transition ease-in-out duration-1000`}
               >
-                <img src="/bread.png" alt="" />
+                <Image src="/bread.png" alt="" width={150} height={150} />
                 <div
                   className={` ${
                     isScrolled ? "w-28 h-10" : "text-2xl w-40 h-10"
@@ -79,7 +80,7 @@ const Header = () => {
               <div
                 className={` w-12 h-12  flex flex-col items-center bg-white  rounded-full border-2 border-black `}
               >
-                <img src="/bread.png" alt="" />
+                <Image src="/bread.png" alt="" width={150} height={150} />
                 <div
                   className={`${dancingScript.className} w-16 text-xs bg-orange-300 border-2 flex justify-center border-black`}
                 >
@@ -90,17 +91,17 @@ const Header = () => {
             <div className="relative">
               <button
                 type="button"
-                class="rounded-full bg-white border-2 border-black p-3 "
+                className="rounded-full bg-white border-2 border-black p-3 "
                 id="user-menu-button"
                 aria-expanded="false"
                 aria-haspopup="true"
                 onClick={() => setToggleMenu(!toggleMenu)}
               >
-                <span class="text-white ">
+                <span className="text-white ">
                   {toggleMenu ? (
-                    <img src="/menu.png" alt="" className="w-[12px]" />
+                    <Image src="/menu.png" alt="" width={10} height={10} />
                   ) : (
-                    <img src="/close.png" alt="" className="w-[10px]" />
+                    <Image src="/close.png" alt="" width={10} height={10} />
                   )}
                 </span>
               </button>

@@ -15,7 +15,7 @@ const Dialog = ({ setOpenDialog }) => {
             as={"button"}
             className={` p-3 rounded-full cursor-pointer text-black font-normal border border-white bg-orange-400 `}
           >
-            <img src="/close.png" alt="" className="w-[10px]" />
+            <Image src="/close.png" alt=""  width={10} height={10}/>
           </CardItem>
         </div>
         <CardItem
