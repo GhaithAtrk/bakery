@@ -13,9 +13,9 @@ const Dialog = ({ setOpenDialog }) => {
             translateZ={20}
             onClick={() => setOpenDialog(false)}
             as={"button"}
-            className={` px-4 py-2 rounded-xl  cursor-pointer text-black font-normal border border-white bg-orange-400 `}
+            className={` p-3 rounded-full cursor-pointer text-black font-normal border border-white bg-orange-400 `}
           >
-            <i>&#10006;</i>
+            <img src="/close.png" alt="" className="w-[10px]" />
           </CardItem>
         </div>
         <CardItem
