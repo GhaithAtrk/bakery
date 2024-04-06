@@ -101,7 +101,7 @@ const Testimonies = () => {
         <h2
           className={`${dancingScript.className} px-10 text-2xl my-8 md:px-20 font-extrabold`}
         >
-          Some of what our customers say
+          What Our Clients Say
         </h2>
 
         <ul
