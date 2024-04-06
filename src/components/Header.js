@@ -81,7 +81,7 @@ const Header = () => {
         >
           <Link href="/">
             <div
-              className={`absolute top-2 left-6  w-12 h-12  flex flex-col items-center bg-white  rounded-full border-2 border-black `}
+              className={`absolute top-1 left-6  w-12 h-12  flex flex-col items-center bg-white  rounded-full border-2 border-black `}
             >
               <Image src="/bread.png" alt="" width={150} height={150} />
               <div
