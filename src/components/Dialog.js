@@ -1,6 +1,6 @@
 "use client";
 
-import { CardBody, CardContainer, CardItem } from "@/utils/dialog-ui";
+import { CardBody, CardContainer, CardItem } from "@/components/UI/dialog-ui";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,12 +15,12 @@ const Dialog = ({ setOpenDialog }) => {
             as={"button"}
             className={` p-3 rounded-full cursor-pointer text-black font-normal border border-white bg-orange-400 `}
           >
-            <Image src="/close.png" alt=""  width={10} height={10}/>
+            <Image src="/close.png" alt="" width={10} height={10} />
           </CardItem>
         </div>
         <CardItem
-          translateZ={20}
-          className="text-xl text-center font-bold text-white dark:text-white"
+          translateZ={40}
+          className="text-xl text-center font-bold text-white"
         >
           This page is just a Demo
         </CardItem>
@@ -31,15 +31,17 @@ const Dialog = ({ setOpenDialog }) => {
         >
           Feel Free to contact me to work the whole project for you
         </CardItem>
-        <CardItem translateZ="100" className="mt-4">
-          <Image
-            src="/products/dialog.png"
-            height={150}
-            width={300}
-            className="object-cover mt-10 m-auto"
-            alt="thumbnail"
-          />
-        </CardItem>
+        <div className="flex justify-center items-center">
+          <CardItem translateZ="100" className="mt-2">
+            <Image
+              src="/white-bread.png"
+              height={120}
+              width={300}
+              className="object-cover mt-10 m-auto"
+              alt="thumbnail"
+            />
+          </CardItem>
+        </div>
         <div className="flex justify-center items-center mt-5">
           <CardItem
             translateZ={20}
