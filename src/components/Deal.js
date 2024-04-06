@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeContext } from "@/context/ThemeContext";
-import { HoverBorderGradient } from "@/utils/HoverBorderGradient";
+import { HoverBorderGradient } from "@/components/UI/HoverBorderGradient";
 import Image from "next/image";
 import { useContext } from "react";
 
@@ -27,7 +27,7 @@ const Deal = () => {
               style={{ zIndex: 3 }}
             >
               <h1 className="text-4xl my-4">Today&apos;s Deal</h1>
-              <p className="md:my-4">Buy 2 peices and get <span className="text-2xl font-bold text-orange-500">10%</span> discount on the third peice</p>
+              <p className="md:my-14">Buy 2 peices and get <span className="text-2xl font-bold text-orange-500">10%</span> discount on the third peice</p>
             </div>
           </div>
         </div>
